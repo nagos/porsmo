@@ -97,7 +97,6 @@ pub fn pomodoro(
             format!("Round: {}", pomo.session()),
         )?;
 
-        thread::sleep(Duration::from_millis(100));
     }
 
     Ok(pomo.elapsed())
